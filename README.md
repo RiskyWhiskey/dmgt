@@ -1,4 +1,3 @@
-
 ![dmgt Logo](http://dmgt.riskywhiskey.com.au/images/dmgt128.png)
 
 Dungeon Master Geek Tools
@@ -74,14 +73,26 @@ Compile and Install
 If you have chosen to compile the application from source a handy make file
 should be found within the directory. The following explains:
 
-make             Build the application.
-                 Build flags overridden by: make FLAGS="insert flags here"
+###~$ make
 
-make install     **Linux, OSX and other Unix-like OSs only.**
-                 With root premision installs the application to the directory
-                 "/usr/local/bin" making it available in terminal.
-                 PREFIX overridden by: make PREFIX=/insert/dir/here/ install
+Build the application. Build flags overridden by:
 
-make clean       Removes objects from the directory
+    make FLAGS="insert flags here"
 
-make cleanall    Removes all build files from directory
+###~$ make install
+
+**Linux, OSX and other Unix-like OSs only.**
+
+With root premision installs the application to the directory
+"/usr/local/bin" making it available in terminal.
+Install directory overridden by:
+
+    make PREFIX=/insert/dir/here/ install
+
+###~$ make clean
+
+Removes objects from the directory
+
+###~$ make cleanall
+
+Removes all build files from directory
