@@ -1,4 +1,3 @@
-
                         /
                        /0
                       /00                            /
@@ -94,7 +93,7 @@ make             Build the application.
 make install     **Linux, OSX and other Unix-like OSs only.**
                  With root premision installs the application to the directory
                  "/usr/local/bin" making it available in terminal.
-                 PREFIX overridden by: make PREFIX=/insert/dir/here/ install
+                 Directory overridden by: make PREFIX=/insert/dir/here/ install
 
 make clean       Removes objects from the directory
 
