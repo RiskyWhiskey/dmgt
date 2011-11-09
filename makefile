@@ -82,7 +82,7 @@ help :
 	@echo " make install     **Linux, OSX and other Unix-like OSs only.**"
 	@echo "                  With root premision installs the application to the directory"
 	@echo "                  \"/usr/local/bin\" making it available in terminal."
-	@echo "                  PREFIX overridden by: make INSTALL=/insert/dir/here/ install"
+	@echo "                  Location overridden by: make INSTALL=/insert/dir/here/ install"
 	@echo ""
 	@echo " make clean       Removes build files from the directory."
 	@echo ""
